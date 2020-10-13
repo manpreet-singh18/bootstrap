@@ -71,6 +71,89 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="myregisteration" role="dialog">
+    <div class="modal-dialog modal-lg" role="content">
+        <div class="modal-content">
+            <div class="modal-header">
+                
+                    <h3 class="modal-title">Reserve a Table</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group row ">
+                        <label for="numberofguests" class="col-form-label col-2"> <strong> Number of Guests</strong></label>
+                        <div class="col">
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="option" id="option1" value="option1">
+                                <label for="option1" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <input type="radio" class="form-check-input" name="option" id="option2" value="option2">
+                                 <label for="option2"  class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <input type="radio" class="form-check-input" name="option" id="option3" value="option3">
+                                 <label for="option3"  class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                 <input type="radio" class="form-check-input" name="option" id="option4" value="option4">
+                                 <label for="option4"  class="form-check-label">4</label>
+                            </div>
+                             <div class="form-check form-check-inline"> 
+                                <input type="radio" class="form-check-input" name="option" id="option5" value="optio5">
+                                <label for="option5"  class="form-check-label">5</label>
+                                        
+                             </div>
+                             <div class="form-check form-check-inline"> 
+                                <input type="radio" class="form-check-input" name="option" id="option6" value="option6">
+                                <label for="option6"  class="form-check-label">6</label>
+                             </div>
+                        </div>
+                      
+                        
+                      </div>
+                      <div class="form-group row">
+                          <label for="choicesofplace" class="col-form-table col-2" ><strong>Section</strong></label>
+                        <div class="col">
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-success active">
+                                  <input type="radio" name="options" id="option1"  checked> Non-Smoking
+                                </label>
+                                <label class="btn btn-danger">
+                                  <input type="radio" name="options" id="option2" > Smoking
+                                </label>
+                              </div>
+                            </div>
+                            
+                            
+                        </div>
+                
+                      <div class="form-group row">
+                        <label for="dateandtime" class="col-md-2  col-form-label" ><strong>Date and Time</strong></label>
+                        <div class="col-12 col-md-3">
+                            <input type="text" class="form-control" id="date" name="date" placeholder="Date">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <input type="text" class="form-control" id="time" name="time" placeholder="Time">
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <div class="col offset-sm-2">
+                           
+                                <button type="button" class="btn btn-seconday" data-dismiss="modal">Cancel</button>
+                                <button type="button" class="btn btn-primary" id="reserve">Reserve</button>
+                           
+                            
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -186,89 +269,7 @@
                 </div>
                </div>
         </div>
-        <div class="modal fade" id="myregisteration" role="dialog">
-            <div class="modal-dialog modal-lg" role="content">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        
-                            <h3 class="modal-title">Reserve a Table</h3>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        
-                    </div>
-                    <div class="modal-body">
-                        <form>
-                            <div class="form-group row ">
-                                <label for="numberofguests" class="col-form-label col-2"> <strong> Number of Guests</strong></label>
-                                <div class="col">
-                                    <div class="form-check form-check-inline">
-                                        <input type="radio" class="form-check-input" name="option" id="option1" value="option1">
-                                        <label for="option1" class="form-check-label">1</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                         <input type="radio" class="form-check-input" name="option" id="option2" value="option2">
-                                         <label for="option2"  class="form-check-label">2</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                         <input type="radio" class="form-check-input" name="option" id="option3" value="option3">
-                                         <label for="option3"  class="form-check-label">3</label>
-                                    </div>
-                                    <div class="form-check form-check-inline">
-                                         <input type="radio" class="form-check-input" name="option" id="option4" value="option4">
-                                         <label for="option4"  class="form-check-label">4</label>
-                                    </div>
-                                     <div class="form-check form-check-inline"> 
-                                        <input type="radio" class="form-check-input" name="option" id="option5" value="optio5">
-                                        <label for="option5"  class="form-check-label">5</label>
-                                                
-                                     </div>
-                                     <div class="form-check form-check-inline"> 
-                                        <input type="radio" class="form-check-input" name="option" id="option6" value="option6">
-                                        <label for="option6"  class="form-check-label">6</label>
-                                     </div>
-                                </div>
-                              
-                                
-                              </div>
-                              <div class="form-group row">
-                                  <label for="choicesofplace" class="col-form-table col-2" ><strong>Section</strong></label>
-                                <div class="col">
-                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-success active">
-                                          <input type="radio" name="options" id="option1"  checked> Non-Smoking
-                                        </label>
-                                        <label class="btn btn-danger">
-                                          <input type="radio" name="options" id="option2" > Smoking
-                                        </label>
-                                      </div>
-                                    </div>
-                                    
-                                    
-                                </div>
-                        
-                              <div class="form-group row">
-                                <label for="dateandtime" class="col-md-2  col-form-label" ><strong>Date and Time</strong></label>
-                                <div class="col-12 col-md-3">
-                                    <input type="text" class="form-control" id="date" name="date" placeholder="Date">
-                                </div>
-                                <div class="col-12 col-md-3">
-                                    <input type="text" class="form-control" id="time" name="time" placeholder="Time">
-                                </div>
-                            </div> 
-                            <div class="form-group row">
-                                <div class="col offset-sm-2">
-                                   
-                                        <button type="button" class="btn btn-seconday" data-dismiss="modal">Cancel</button>
-                                        <button type="button" class="btn btn-primary" id="reserve">Reserve</button>
-                                   
-                                    
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-                
+            
               
            
         </div>
