@@ -109,7 +109,7 @@
                             <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
                       
 
-                </div>
+                      </div>
                         
                       </div>
                       <div class="carousel-item ">
@@ -232,14 +232,19 @@
                               <div class="form-group row">
                                   <label for="choicesofplace" class="col-form-table col-2" ><strong>Section</strong></label>
                                 <div class="col">
-                                    <div class="btn-group" role="group" aria-label="group">
-                                        <button type="button" class="btn btn-danger" id="smoking">Smoking</button>
-                                        <button type="button" class="btn btn-success" id="Non-Smoking">Non-Smoking</button>
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-success active">
+                                          <input type="radio" name="options" id="option1"  checked> Non-Smoking
+                                        </label>
+                                        <label class="btn btn-danger">
+                                          <input type="radio" name="options" id="option2" > Smoking
+                                        </label>
+                                      </div>
                                     </div>
                                     
                                     
                                 </div>
-                            </div>
+                        
                               <div class="form-group row">
                                 <label for="dateandtime" class="col-md-2  col-form-label" ><strong>Date and Time</strong></label>
                                 <div class="col-12 col-md-3">
@@ -263,18 +268,7 @@
                 </div>
             </div>
         </div>
-                <div class="card" >
-                    <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
-                    <div class="card-body">
-                        <form >
-                         
-    
-                           
-                            
-                        </form>
-                        </div>
-                    </div>
-                   
+                
               
            
         </div>
