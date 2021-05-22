@@ -1,2 +1,2 @@
 # bootstrap
-testing
+learning bootstrap 
